@@ -14,7 +14,7 @@ Fetch the newest **English Wikipedia** pages-articles-multistream dump every wee
 
 ---
 
-## 🔧 Requirements
+## Requirements
 
 ```text
 Python 3.9+

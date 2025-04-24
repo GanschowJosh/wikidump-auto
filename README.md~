@@ -119,13 +119,14 @@ enwiki-YYYYMMDD-pages-articles-multistream*.bz2
 ```
 and deletes any older than `--retention` days, ignoring partial `.bz2.!qB` files that are still downloading.
 
-
 ---
+
 # Common Issues and Fixes
 1. `Errored` status on qbittorent
   - Most common reason for this is that qbittorent does not have access to the folder you specified. Choose a different folder or edit permissions based on what user is running qbittorent client.
 2. `ERROR: {"detail":"Method Not Allowed"}` or `[Errno 111] Connection refused`
   - Most likely the wrong port was specified to reach qbittorrent or qbittorrent webui was not enabled.
+
 ---
 
 ## License
